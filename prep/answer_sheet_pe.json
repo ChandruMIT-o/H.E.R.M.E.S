@@ -1,0 +1,58 @@
+{
+	"subject": "Computer Vision",
+	"student_id": "2022510032",
+	"questions": [
+		{
+			"id": "Q1",
+			"type": "multiple_choice",
+			"answer": "A",
+			"marks_from_evaluation": "",
+			"evaluation_justification": "",
+			"related_url": ["http"]
+		},
+		{
+			"id": "Q2",
+			"type": "multiple_choice",
+			"answer": "",
+			"marks_from_evaluation": "",
+			"evaluation_justification": "",
+			"related_url": ["http"]
+		},
+		{
+			"id": "Q3",
+			"type": "matching",
+			"answer": {
+				"France": "Paris",
+				"Germany": "Berlin",
+				"Italy": "Rome"
+			},
+			"marks_from_evaluation": "",
+			"evaluation_justification": "",
+			"related_url": ["http"]
+		}
+	],
+	"metadata": {
+		"created_by": "Exam Committee",
+		"version": "1.0",
+		"rubric_exam_name": {
+			"A": {
+				"questions": ["Q1", "Q2", "Q3"],
+				"max_attempts": 2,
+				"marks_per_question": 2
+			},
+			"B": {
+				"questions": ["Q1", "Q2", "Q3"],
+				"max_attempts": 3,
+				"marks_per_question": 5
+			},
+			"C": {
+				"questions": ["Q1", "Q2"],
+				"max_attempts": 1,
+				"marks_per_question": 13
+			}
+		},
+		"total_points": 100,
+		"marks_scored": 90,
+		"pass_threshold": 30
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"paper_title": "Comprehensive Exam Paper",
+	"subject": "Computer Vision",
+	"subject-id": "AZ1234",
+	"exam_date": "2025-03-30",
+	"duration": "120",
+	"instructions": "Answer all questions. Use diagrams where necessary and provide clear, concise answers.",
+	"questions": [
+		{
+			"id": "Q1",
+			"type": "multiple_choice",
+			"question_text": "What is the capital of France?",
+			"diagrams": [],
+			"marks": 2,
+			"options": [
+				{ "option_id": "A", "text": "Paris" },
+				{ "option_id": "B", "text": "Berlin" },
+				{ "option_id": "C", "text": "Madrid" },
+				{ "option_id": "D", "text": "Rome" }
+			],
+			"answer": "A",
+			"metadata": { "difficulty": "easy", "topics": ["geography"] },
+			"evaluation-prompt": "From the Professor",
+			"related_url": ["http"]
+		},
+		{
+			"id": "Q2",
+			"type": "long_answer",
+			"question_text": "Discuss the impacts of climate change on global agriculture.",
+			"diagrams": [],
+			"marks": 10,
+			"options": [],
+			"answer": "",
+			"metadata": {
+				"difficulty": "hard",
+				"topics": ["environment", "agriculture"]
+			},
+			"evaluation-prompt": "From the Professor",
+			"related_url": ["http"]
+		},
+		{
+			"id": "Q3",
+			"type": "matching",
+			"question_text": "Match the following countries with their capitals.",
+			"diagrams": [],
+			"marks": 3,
+			"pairs": {
+				"left": ["France", "Germany", "Italy"],
+				"right": ["Paris", "Berlin", "Rome"]
+			},
+			"answer": {
+				"France": "Paris",
+				"Germany": "Berlin",
+				"Italy": "Rome"
+			},
+			"metadata": { "difficulty": "medium", "topics": ["geography"] },
+			"evaluation-prompt": "From the Professor",
+			"related_url": ["http"]
+		}
+	],
+	"metadata": {
+		"created_by": "Exam Committee",
+		"version": "1.0",
+		"rubric_exam_name": {
+			"A": {
+				"questions": ["Q1", "Q2", "Q3"],
+				"max_attempts": 2,
+				"marks_per_question": 2
+			},
+			"B": {
+				"questions": ["Q1", "Q2", "Q3"],
+				"max_attempts": 3,
+				"marks_per_question": 5
+			},
+			"C": {
+				"questions": ["Q1", "Q2"],
+				"max_attempts": 1,
+				"marks_per_question": 13
+			}
+		},
+		"total_points": 100,
+		"pass_threshold": 30
+	}
+}

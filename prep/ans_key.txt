@@ -1,0 +1,94 @@
+PART A - Short Answer Questions (5 × 2 = 10 Marks)
+1. Define image convolution and its significance in computer vision.
+Image convolution is a mathematical operation on two functions (in this case, the image and a kernel/filter) that produces a modified image emphasizing or suppressing certain features. It is used for smoothing, sharpening, edge detection, and feature extraction, making it fundamental for preprocessing and analyzing images in computer vision.
+
+2. What is the difference between edge detection and corner detection?
+Edge detection identifies boundaries within images where there is a sharp change in intensity, typically indicating object borders. In contrast, corner detection finds points where edges meet or where there is a high curvature, which are useful as reliable feature points for tracking and matching.
+
+3. Explain the concept of homography in image transformations.
+Homography is a transformation that maps points from one plane to another using a 3×3 matrix. It is used to correct perspective distortions, align images taken from different viewpoints, and is fundamental in tasks like image stitching and augmented reality.
+
+4. What are the challenges in object recognition using deep learning?
+_Challenges include:
+
+Data Requirements: Deep networks require large, diverse, and well-labeled datasets.
+
+Overfitting: With limited data, models may overfit and not generalize well.
+
+Computational Resources: Training deep networks is computationally intensive.
+
+Variability: Handling variations in lighting, occlusion, and pose can be difficult.
+
+Interpretability: Deep models are often seen as “black boxes,” making it hard to explain their decisions._
+
+5. Describe the role of feature extraction in computer vision.
+Feature extraction involves identifying and isolating important pieces of information (features) from raw images such as edges, corners, textures, or shapes. These features form the basis for tasks like object recognition, image matching, and classification, reducing data complexity and improving processing efficiency.
+
+PART B - Either/Or Questions (2 × 13 = 26 Marks)
+6. Option (a): Explain the various types of image segmentation techniques with examples.
+_Image segmentation divides an image into meaningful regions. Techniques include:
+
+Thresholding: Separates regions by intensity values (e.g., separating foreground from background).
+
+Edge-based Segmentation: Detects object boundaries using gradient information.
+
+Region-based Segmentation: Groups pixels with similar properties, such as in region growing or splitting and merging.
+
+Clustering Methods: Algorithms like k-means cluster pixels based on color or texture similarities.
+
+Deep Learning Approaches: Methods such as Fully Convolutional Networks (FCN) and U-Net learn to segment images with high accuracy in complex scenes._
+
+In practice, each method is chosen based on the image characteristics and the specific application requirements.
+
+7. Option (a): Discuss the structure and working of a Convolutional Neural Network (CNN). Illustrate with a suitable architecture.
+_A Convolutional Neural Network (CNN) is composed of several types of layers designed to automatically and adaptively learn spatial hierarchies of features:
+
+Convolutional Layers: Apply filters to extract features such as edges and textures.
+
+Activation Layers: Introduce non-linearity using functions like ReLU.
+
+Pooling Layers: Reduce the spatial dimensions, making the representation more compact and robust to slight translations (e.g., max pooling).
+
+Fully Connected Layers: Combine features to form predictions.
+
+Architecture Example: A typical CNN might include:
+
+Input layer (e.g., 224×224 RGB image)
+
+Convolutional layer with 32 filters of size 3×3 followed by ReLU
+
+Max pooling layer (2×2)
+
+Convolutional layer with 64 filters followed by ReLU and another pooling layer
+
+One or two fully connected layers
+
+Output layer with softmax activation for classification._
+
+This layered approach allows CNNs to learn robust feature hierarchies that are highly effective in image recognition tasks.
+
+PART C - Long Answer Question (1 × 14 = 14 Marks)
+8. Option (a): Explain in detail the different methods for object detection in images and videos. Compare traditional approaches with deep learning-based methods.
+Object detection aims to locate and classify objects within images. Methods include:
+
+Traditional Approaches:
+
+Sliding Window: Exhaustively search the image using windows at multiple scales.
+
+Feature-Based Methods: Use hand-crafted features such as SIFT or HOG combined with classifiers (e.g., SVM).
+
+Pros: Intuitive and interpretable; effective in controlled environments.
+
+Cons: Computationally intensive, less accurate with complex backgrounds, and limited by the quality of hand-crafted features.
+
+Deep Learning-Based Methods:
+
+Two-Stage Detectors: Such as R-CNN, Fast R-CNN, and Faster R-CNN, which first generate region proposals and then classify them.
+
+One-Stage Detectors: Such as YOLO (You Only Look Once) and SSD (Single Shot MultiBox Detector) that perform detection in a single pass, balancing speed and accuracy.
+
+Pros: End-to-end learning from data, high accuracy, and robustness to variations in scale, illumination, and occlusion.
+
+Cons: Require large datasets and significant computational resources; often act as “black boxes” with less interpretability.
+
+Deep learning methods have largely overtaken traditional methods due to their ability to learn complex representations from data. However, the choice of method may depend on application constraints such as speed, accuracy, and resource availability.

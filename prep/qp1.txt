@@ -1,0 +1,46 @@
+**INSTITUTE NAME**  
+**DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING**  
+**COMPUTER VISION**  
+**(End Semester Examination - [Month/Year])**  
+
+**Course Code:** [XXXX]  
+**Max. Marks:** 50  
+**Duration:** 120 Minutes  
+
+---
+
+### **PART A - Short Answer Questions (5 × 2 = 10 Marks)**
+Answer all questions. Each question carries **2 marks**.
+
+1. Define image convolution and its significance in computer vision.
+2. What is the difference between edge detection and corner detection?
+3. Explain the concept of homography in image transformations.
+4. What are the challenges in object recognition using deep learning?
+5. Describe the role of feature extraction in computer vision.
+
+---
+
+### **PART B - Either/Or Questions (2 × 13 = 26 Marks)**
+Answer any **two** of the following questions. Each question carries **13 marks**.
+
+**6. (a) Explain the various types of image segmentation techniques with examples.**  
+**(OR)**  
+**(b) Describe the working of the Harris Corner Detector with necessary mathematical derivations.**
+
+**7. (a) Discuss the structure and working of a Convolutional Neural Network (CNN). Illustrate with a suitable architecture.**  
+**(OR)**  
+**(b) Explain the role of Optical Flow in motion estimation. Derive the Lucas-Kanade Optical Flow equation.**
+
+---
+
+### **PART C - Long Answer Question (1 × 14 = 14 Marks)**
+Answer **any one** of the following questions. Each question carries **14 marks**.
+
+**8. (a) Explain in detail the different methods for object detection in images and videos. Compare traditional approaches with deep learning-based methods.**  
+**(OR)**  
+**(b) What is feature matching in computer vision? Discuss different feature matching techniques and their applications.**
+
+---
+
+**End of the Question Paper**
+
